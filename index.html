@@ -18,7 +18,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JUGUL CRICKET ANALYST</title>
+    <title>KING MAKER</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
@@ -41,24 +41,41 @@
             position:absolute;
             inset:0;
             background:rgba(0,0,0,.65);
+            z-index:1;
+        }
+        .video-bg{
+            position:fixed;
+            inset:0;
+            z-index:-1;
+        }
+        .video-bg video{
+            width:100%;
+            height:100%;
+            object-fit:cover;
         }
     </style>
 </head>
 
 <body class="bg-black overflow-hidden">
 
-<div class="relative min-h-screen flex items-center justify-center bg-cover bg-center"
-     style="background-image:url('https://raw.githubusercontent.com/mrxsetup/JUGUL-CRICKET-ANALYST/main/JUGULLOGO.jpg');">
+<!-- ===== Background Video ===== -->
+<div class="video-bg">
+    <video autoplay muted loop playsinline>
+        <source src="https://res.cloudinary.com/dzhykus7z/video/upload/v1768203780/BACKNEW_20_uonoms.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="relative min-h-screen flex items-center justify-center">
 
     <div class="overlay"></div>
 
     <div class="relative z-10 text-center text-white px-4 max-w-md w-full">
 
         <h1 class="text-3xl font-bold neon-text">
-            JUGUL CRICKET ANALYST
+            KING MAKER
         </h1>
 
-        <img src="https://raw.githubusercontent.com/mrxsetup/JUGUL-CRICKET-ANALYST/main/JUGULLOGO.jpg"
+        <img src="https://github.com/mrxsetup/KING_MAKER_PREDICTION/blob/main/KINGMAKERSOUTH.jpg?raw=true"
              class="mx-auto w-28 h-28 rounded-full mt-4 border-2 border-cyan-400 neon-box object-cover">
 
         <p class="mt-3 text-lg font-semibold">
@@ -72,13 +89,13 @@
 
         <p class="text-sm mb-4">Daily Cricket Prediction 👇</p>
 
-        <a href="https://t.me/+6_SK2tZVxSMxZGU1">
+        <a href="https://t.me/+FfCbk33qwjxmOTJl">
             <button class="btn-neon w-full bg-cyan-400 text-red-600 font-bold py-4 rounded-lg border-b-4 border-red-600">
-                JOIN JUGUL CRICKET ANALYST
+                JOIN KING MAKER
             </button>
         </a>
 
-        <a href="https://t.me/+6_SK2tZVxSMxZGU1">
+        <a href="https://t.me/+FfCbk33qwjxmOTJl">
             <button class="btn-neon w-full mt-4 bg-red-500 text-white font-bold py-4 rounded-lg border-b-4 border-cyan-400">
                 JOIN OFFICIAL CHANNEL
             </button>
